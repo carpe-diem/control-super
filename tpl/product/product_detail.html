@@ -1,0 +1,97 @@
+<div class="details row-fluid">
+  <div class="span2 image-details">
+    <img src="<% if (image){ %>pics/<%= image %><% }else{%>img/no_image_es.png<% } %>"/>
+  </div>
+  <div class="span6">
+    <h1><%= description %></h1>
+    <div class="row-fluid">
+      <div class="span4">
+        <h4><%= category %> - <%= brand %></h4>
+        <h4><%= unit %> <%= unit_measure %></h4>
+      </div>
+      <div class="span2 barcode">
+        <% if (barcode){ %><div id="barcode"></div><% } %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% if(price_carrefour_south){ %>
+  <div class="details market-place row-fluid">
+    <div class="span2">
+      <img src="img/logo_carrefour.png" alt="Carrefour"/>
+    </div>
+    <div class="span10 price-detail">
+      <p><b>Zona Sur:</b> $<%= price_carrefour_south %></p>
+      <p><b>Zona Norte:</b> $<%= price_carrefour_north %></p>
+    </div>
+  </div>
+<% } %>
+<% if(price_obrera_south){ %>
+  <div class="details market-place row-fluid">
+    <div class="span2">
+      <img src="img/logo_obrera.png" alt="Coopetativa Obrera"/>
+    </div>
+    <div class="span10 price-detail">
+      <p><b>Zona Sur:</b> $<%= price_obrera_south %></p>
+      <p><b>Zona Norte:</b> $<%= price_obrera_north %></p>
+    </div>
+  </div>
+<% } %>
+<% if(price_coto_south){ %>
+  <div class="details market-place row-fluid">
+    <div class="span2">
+      <img src="img/logo_coto.png" alt="Coto"/>
+    </div>
+    <div class="span10 price-detail">
+      <p><b>Zona Sur:</b> $<%= price_coto_south %></p>
+      <p><b>Zona Norte:</b> $<%= price_coto_north %></p>
+    </div>
+  </div>
+<% } %>
+<% if(price_jumbo_south){ %>
+  <div class="details market-place row-fluid">
+    <div class="span2">
+      <img src="img/logo_jumbo.png" alt="Jumbo, Disco y Plaza Vea"/>
+    </div>
+    <div class="span10 price-detail">
+      <p><b>Zona Sur:</b> $<%= price_jumbo_south %></p>
+      <p><b>Zona Norte:</b> $<%= price_jumbo_north %></p>
+    </div>
+  </div>
+<% } %>
+<% if(price_anonima_south){ %>
+  <div class="details market-place row-fluid">
+    <div class="span2">
+      <img src="img/logo_anonima.png" alt="La Anónima"/>
+    </div>
+    <div class="span10 price-detail">
+      <p><b>Zona Sur:</b> $<%= price_anonima_south %></p>
+      <p><b>Zona Norte:</b> $<%= price_anonima_north %></p>
+    </div>
+  </div>
+<% } %>
+<% if(price_libertad_south){ %>
+  <div class="details market-place row-fluid">
+    <div class="span2">
+      <img src="img/logo_libertad.png" alt="Supermercado Libertad"/>
+    </div>
+    <div class="span10 price-detail">
+      <p><b>Zona Sur:</b> $<%= price_libertad_south %></p>
+      <p><b>Zona Norte:</b> $<%= price_libertad_north %></p>
+    </div>
+  </div>
+<% } %>
+<% if(price_walmark_south){ %>
+  <div class="details market-place row-fluid">
+    <div class="span2">
+      <img src="img/logo_walmart.png" alt="Walmart"/>
+    </div>
+    <div class="span10 price-detail">
+      <p><b>Zona Sur:</b> $<%= price_walmark_south %></p>
+      <p><b>Zona Norte:</b> $<%= price_walmark_north %></p>
+    </div>
+  </div>
+<% } %>
+
+

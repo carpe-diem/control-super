@@ -1,0 +1,146 @@
+.search-key {
+  /*width: 100%;*/
+  /*font-size: 25px !important;*/
+  /*padding: 30px !important;*/
+}
+
+.thumb-small {
+  float: left;
+  border: 0 none;
+  box-shadow: none;
+  width: 73px;
+  height: 62px;
+}
+
+.list-item {
+  min-height:70px;
+}
+
+.scroller {
+    /*margin-top: 110px;*/
+}
+
+.scroller > ul > li{
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background: url("../img/beige_paper.png") repeat scroll left top #DDDDDD;
+  color: #333333;
+  /*font-family: 'Terminal Dosis',Arial,sans-serif;*/
+  font-size: 13px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none !important;
+}
+
+ol, ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item-content h3{
+  line-height: 20px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.list-item-content h4{
+  line-height: 30px;
+  color: #333333;
+}
+
+.content {
+  position: relative;
+}
+
+#page {
+  padding: 10px;
+}
+
+.ca-menu li {
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+  height: 100px;
+  margin-bottom: 4px;
+  overflow: hidden;
+  position: relative;
+  transition: all 300ms linear 0s;
+}
+
+.ca-menu li a {
+  color: #333333;
+  display: block;
+  height: 100%;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.ca-icon {
+  font-family: 'WebSymbolsRegular',cursive;
+  font-size: 20px;
+  line-height: 90px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 0 1px #333333;
+}
+
+.ca-content {
+  height: 60px;
+  left: 120px;
+  position: absolute;
+}
+
+
+.ca-main {
+    font-size: 30px;
+}
+
+.ca-sub {
+  color: #666666;
+  font-size: 14px;
+}
+
+.details {
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.details h1 {
+    margin: 0px 0px 0px 0px;
+    font-size: 1.2rem;
+    color: #C6C8C8;
+}
+
+.details h2 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #888;
+}
+
+.image-details{
+  text-align: center;
+  padding: 10px;
+}
+
+.market-place{
+  margin-top: 10px;
+}
+
+.market-place img{
+  height: 100px;
+  width: 100px;
+  padding-left: 10px;
+}
+
+.price-detail{
+  padding-top: 25px;
+}
